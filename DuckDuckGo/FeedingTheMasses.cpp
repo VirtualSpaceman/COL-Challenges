@@ -17,9 +17,9 @@ int main(){
 	printf("Bread price per loaf? ");
 	scanf("%lf", &bread_price);
 	
-	if (bread_nutrition <= 0.)
+	if (ducks <= 0.)
 	{
-		printf("Invalid Bread Nutrition!");
+		printf("Invalid Number of ducks!");
 		return 0;
 	}
 	
